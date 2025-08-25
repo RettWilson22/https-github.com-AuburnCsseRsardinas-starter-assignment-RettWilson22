@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -O2
 
 SRC = starter.cpp main.cpp
 OBJ = $(SRC:.cpp=.o)
-TARGET = app
+TARGET = a.out
 
 all: $(TARGET)
 
